@@ -22,14 +22,12 @@ This repository contains two core algorithms widely used in robotics and compute
 - Visualizes alignment results.
 
 ### Route Planning Using Occupancy Grid Maps with A*
-
 - Implements A Search* for pathfinding on an occupancy grid map, leveraging a priority queue for efficient exploration.
 - Uses Euclidean distance as the heuristic to estimate the cost from each node to the goal.
 - Ensures accurate navigation by checking neighbors and computing cumulative path costs to find the optimal route.
 - Suitable for structured, grid-based environments with predefined obstacles.
 
-### Route Planning Using Occupancy Grid Maps with Probabilistic Roadmaps:
-
+### Route Planning Using Occupancy Grid Maps with Probabilistic Roadmaps
 - Constructs a Probabilistic Roadmap (PRM) by randomly sampling free-space vertices and connecting them within a predefined distance (d_max).
 - Uses a visibility check to ensure connections between nodes are collision-free. (bresenham algorithm for diagonal lines)
 - Pathfinding leverages A Search* on the PRM graph, with edge weights defined by Euclidean distances.
