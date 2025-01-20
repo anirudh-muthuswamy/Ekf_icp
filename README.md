@@ -28,7 +28,7 @@ This repository contains two core algorithms widely used in robotics and compute
 - Ensures accurate navigation by checking neighbors and computing cumulative path costs to find the optimal route.
 - Suitable for structured, grid-based environments with predefined obstacles.
 
-### Route Planning Using Occupancy Grid Maps with Probabilistic Roadmap (PRM):
+### Route Planning Using Occupancy Grid Maps with Probabilistic Roadmaps:
 
 - Constructs a Probabilistic Roadmap (PRM) by randomly sampling free-space vertices and connecting them within a predefined distance (d_max).
 - Uses a visibility check to ensure connections between nodes are collision-free. (bresenham algorithm for diagonal lines)
