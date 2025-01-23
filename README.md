@@ -1,6 +1,6 @@
 # Robot Navigation and Point Cloud Alignment
 
-This repository contains two core algorithms widely used in robotics and computer vision:
+This repository contains core algorithms widely used in robotics and computer vision:
 
 1. **Extended Kalman Filter (EKF):** Used for localizing a robot in 2D.  
 2. **Iterative Closest Point (ICP):** Used to align 3D point clouds.
